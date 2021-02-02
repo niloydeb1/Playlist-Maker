@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/2.jpg);
+    width: 100%;
+	height: 100%;
+    background-size: cover;
+    display: inline-block;
+    margin: none;
+}
+.main_panel{
+    margin: 50px auto;
+    margin-bottom: 400px;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    width: 185vh;
+    height: 150vh;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    background-color: RGB(240, 234, 214);
+    align-content: center;
+}
+.inner_panel{
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 522px;
+    margin-top: 40px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 12px;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    background-color: RGB(255, 185, 15);
+}
+.playlists{
+    border: 1px solid rgb(255, 255, 255);
+    height: 97vh;
+    margin: 40px 35px;
+    padding: 30px;
+    border-radius: 12px;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    
+    /* display: inline-block;
+    size: 35px; */
+}
+.playlists > a{
+    border-radius: 12px;
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 2px;
+    cursor: pointer;
+}
+.description{
+    margin-top: 100px;
+}
+.howTo{
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 12px;
+    width: 100%;
+    color: rgb(214, 214, 214);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+.howTo > p{
+    font-size: 20px;
+}
