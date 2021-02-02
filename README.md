@@ -1,0 +1,2 @@
+# Playlist-Maker
+Playlist Maker website is created using PHP, HTML &amp; CSS. This website helps everyone to keep track of their necessary video playlists. People can sign up and create playlists of their choice and store videos on the playlists. In order to store video user, have to provide the embed code of the video. They can also remove their videos from playlists or delete the entire playlist.
